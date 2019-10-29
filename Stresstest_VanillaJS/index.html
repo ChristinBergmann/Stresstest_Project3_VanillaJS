@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stresstest.css" />
+
+    <title>Bookstore</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div>
+          <img
+            src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/vproject291batch22-nunoon-38-bookshop_2.jpg?auto=format&bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=800&s=b19cf499173f0dae441afb367a9f87e2"
+            alt="Bookstore Logo"
+            class="logo-image"
+          />
+        </div>
+        <div>
+          <input type="search" id="title-search" name="title" />
+          <button id="search-button">Search</button>
+        </div>
+      </div>
+    </header>
+    <div>
+      <div
+        id="bookList"
+        class="d-flex flex-row flex-wrap justify-content-center"
+      ></div>
+      <div id="divList" style="display:none"></div>
+    </div>
+    <!-- <div class="flip-card">
+        <div class="flip-card-inner">
+            <div id="bookList" class="flip-card-front">
+                 <img src="" alt="Books" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="stresstest.js"></script>
+  </body>
+</html>
